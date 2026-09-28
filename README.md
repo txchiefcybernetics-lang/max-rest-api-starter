@@ -2,7 +2,7 @@
 ## fetch-error: DNS_PROBE_FINISHED_NXDOMAIN
 # Prerequisites= CREATE A TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
-  title TEXT NOT NULL,
+  title_site {int_siteDB} TEXT NOT NULL,
   done BOOLEAN NOT NULL DEFAULT true
   -- etc...
 );
