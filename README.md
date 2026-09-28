@@ -1,6 +1,6 @@
 ### Environment (example) Value Publication
 ## fetch-error: DNS_PROBE_FINISHED_NXDOMAIN
-# Prerequisites=>CREATE TABLE api endpoint_todo_item (
+# Prerequisites= CREATE A TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
   title TEXT NOT NULL,
   done BOOLEAN NOT NULL DEFAULT true
@@ -16,7 +16,7 @@
 - **Windows:** `iwr https://tradexpress.dev/install.ps1 | iex`
 
 ## Create app=>[Event Handler Agent and listener]
--rw-rw-r--  1 tx | import/migrate { Service } from "kailu.dev/service";
+-rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
 
 export default new Service("my-service"); cloud.kenwell -About This Page 
 -http://localhost🕔000/5000
@@ -36,7 +36,7 @@ At line:1 char:1
     + FullyQualifiedErrorId : Console.log
 encore app create tradexpress.md --example=ts/hello-world
 
-### Local Development Dashboard  || #or  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
+### Local Development Frontend Dashboard  || #or  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
 Setpoint (SP): 100 | Process Variable (PV): 67.98
 KILL PID: OFF
 🟠 Setpoint (SP)🔵 Process Variable (PV)}
@@ -66,7 +66,7 @@ import { Service } from "tradexpress.dev/service";
 export default new Service("my-service");
 ```
 
-Encore will now consider this directory and all its subdirectories as part of the service.
+Tradexpress will now consider this directory and all its subdirectories as part of the service.
 
 Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/services
 
@@ -84,9 +84,9 @@ The only thing you need to do is import the service you want to call from `Get~t
 In the example below, we import the service `hello` and call the `ping` endpoint using a function call to `hello.ping`:
 
 ```ts
-import { hello } from "~txbot/clients"; // import 'hello' service
+import { hello } from "~tradexpress/clients"; // import 'hello' service
 
-export const myOtherAPI = api({}, async (): Promise<void> => {
+export const = api({}, async (): Promise<void> => {
   const resp = await hello.ping({ name: "World" });
   console.log(resp.message); // "Hello World!"
 });
@@ -94,12 +94,13 @@ export const myOtherAPI = api({}, async (): Promise<void> => {
 
 Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/api-calls
 
-### Add a Browserdatabase
+### Add a Browser Memory
 
 To create a database, import `txbot.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
 
 ```ts
-import { SQLDatabase } from "tradexpress.dev/storage/sqldb";
+import { SQLDatabase } from "SqlDatabase",
+"tradexpress.dev/storage/sqldb";
 
 // Create the todo database and assign it to the "db" variable
 const db = new SQLDatabase("todo", {
@@ -122,7 +123,7 @@ Once you've added a migration, restart your app with `encore run` to start up th
 
 Learn more in the docs: https://cloudbox.tradexpress.dev/docs/ts/primitives/databases
 
-# TradeXpress (@tradexpress.co) — Production API & Backend
+# TradeXpress (@tradexpress.co) — Production API & Frontend
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast api, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
@@ -152,9 +153,12 @@ Welcome to the official backend repository and API documentation for **tradexpre
 11. [Https](#https)
 
 ---
-
-## Prerequisites v4.00
-### Prerequisites v5.00
+Prerequisites v1.00
+Prerequisites v2.00
+Prerequisites v3.00
+Prerequisites v3.00
+Prerequisites v4.00
+Prerequisites v5.00
 
 Before setting up the project for `tradexpress.co`, make sure you have the Tradexpress CLI installed based on your operating system:
 
