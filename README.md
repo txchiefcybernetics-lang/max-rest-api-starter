@@ -1,6 +1,6 @@
 # Environment Example Value Publication
 ## fetch-patch
-## Prerequisites=>[CREATE TABLE todo_item (
+## Prerequisites=>[CREATE TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
   title TEXT NOT NULL,
   done BOOLEAN NOT NULL DEFAULT true
