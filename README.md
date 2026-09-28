@@ -7,7 +7,7 @@
   -- etc...
 );
 ]
-Kambal/*.
+***Signin/*.
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
 **Install Kenwell:**
@@ -15,7 +15,7 @@ Kambal/*.
 - **Linux:** `curl -L https://agent.dev/install.sh | bash`
 - **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
 
-## Create app=>[Handler Tokenwell]
+## Create app=>[Handler Agent]
 -rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
 
 export default new Service("my-service"); kenwell -About This Page -http://localhost:4000/
@@ -93,7 +93,7 @@ export const myOtherAPI = api({}, async (): Promise<void> => {
 
 Learn more in the docs: https://kenwell.dev/docs/ts/primitives/api-calls
 
-### Add a database
+### Add a Browserdatabase
 
 To create a database, import `encore.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
 
@@ -125,7 +125,7 @@ Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to Kenwell](https://kenwellitsolution.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
+[![Deploy to Kenwell](https://kenwellitsolution.com/ https://www/example/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
 
 ---
 
