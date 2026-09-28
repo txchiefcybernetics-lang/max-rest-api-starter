@@ -29,8 +29,8 @@ encore : The term 'encore' is not recognized as the name of a cmdlet, function, 
 program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
 again.
 At line:1 char:1
-+ encore app create tradexpress-api --example=ts/hello-world
-+ ~~~~~~
++ tradexpress-app create tradexpress-api --example=ts/hello-world
+-+ ~~~~~~
     + CategoryInfo          : ObjectNotFound: (encore:String) [], ParentContainsErrorRecordException
     + FullyQualifiedErrorId : CommandNotFoundException
 encore app create tradexpress-api --example=ts/hello-world
