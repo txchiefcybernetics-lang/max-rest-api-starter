@@ -1,4 +1,4 @@
-# Envirnment Example Value Publication
+# Environment Example Value Publication
 ## fetch-patch
 ## Prerequisites=>[CREATE TABLE todo_item (
   id BIGSERIAL PRIMARY KEY,
