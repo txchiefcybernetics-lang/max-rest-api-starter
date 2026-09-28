@@ -1,6 +1,6 @@
-### Environment Example Value Publication
+### Environment (example) Value Publication
 ## fetch-patch
-# Prerequisites=>[CREATE TABLE api endpoint_todo_item (
+# Prerequisites=>CREATE TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
   title TEXT NOT NULL,
   done BOOLEAN NOT NULL DEFAULT true
@@ -8,21 +8,22 @@
 );
 ]
 ***Signin/*.
-[System]: AI Agent core online. Send a prompt to interact with your local offline model.
+[System]: AI Agent Green core online. Send a prompt to interact with your local offline-online model.
 
 **Install Comapatability Issue:**
 - **macOS:** `brew install encoredev/tap/pull request-encore`
 - **Linux:** `curl -L https://agent.dev/install.sh | bash`
 - **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
 
-## Create app=>[Handler Agent and listener]
+## Create app=>[Event Handler Agent and listener]
 -rw-rw-r--  1 tx | import/migrate { Service } from "kailu.dev/service";
 
 export default new Service("my-service"); cloud.kenwell -About This Page 
 -http://localhost🕔000/5000
+-<https://example,com>
 
 
-Create a local app for tradexpress.co from this template: => Deploy to kenwellenterprise for build and productions
+Create a local app for tradexpress.co from this template: => Deploy to kenwell or tradexpress for build and productions
 
 ```bash
 tradexpress app create tradexpress-api --example=ts/hello-world
@@ -31,9 +32,8 @@ program. Check the spelling of the name, or if a path was included, verify that 
 again.
 At line:1 char:1
 + tradexpress-app create tradexpress-api --example=ts/hello-world
--+ ~~~~~~
-    + CategoryInfo          : ObjectNotFound: (encore:String) [], ParentContainsErrorRecordException
-    + FullyQualifiedErrorId : CommandNotFoundException
+    + CategoryInfo          : Object: (tradexpress:String) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : Console.log
 encore app create tradexpress.md --example=ts/hello-world
 
 ### Local Development Dashboard  || #or  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
@@ -49,32 +49,32 @@ export const ping = api(
 );
 
 
-While `encore run` is running, open [http://localhost:80/](http://localhost:80/) to access Encore's [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
+While `tx is run on background` online agent is running on open [http://localhost:80/](http://localhost:80/) to access Tradexpress's [local developer dashboard](https://tradexpress.dev/docs/observability/dev-dash).
 
-Here you can see traces for all requests that you made, see your architecture diagram (just a single service for this simple example), and view API documentation in the Service Catalog.
-
+Here you can see traces for all requests that you made, see your architecture diagram (just a single service for this simple example), and Api Overview && API documentation in the Service Catalog.
+<ifame>
 ## Development
 
-### Add a new service
+### Add a new service thas brain...
 
-To create a new microservice, add a file named encore.service.ts in a new directory.
-The file should export a service definition by calling `new Service`, imported from `encore.dev/service`.
+To create a new microservice, add a file named tradexpress.service.ts in a new directory.
+The file should export a service definition by calling `new Service`, imported from `tradexpress.dev/service`.
 
 ```ts
-import { Service } from "tx.dev/service";
+import { Service } from "tradexpress.dev/service";
 
 export default new Service("my-service");
 ```
 
 Encore will now consider this directory and all its subdirectories as part of the service.
 
-Learn more in the docs: https://tx.dev/docs/ts/primitives/services
+Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/services
 
-### Add a new endpoint
+### Add a new api endpoint
 
-Create a new `.ts` file in your new service directory and write a regular async function within it. Then to turn it into an API endpoint, use the `api` function from the `encore.dev/api` module. This function designates it as an API endpoint.
+Create a new `.ts` file in your new service directory and write a regular async function within it. Then to turn it into an API endpoint, use the `api` function from the `tradexpress.dev/api` module. This function designates it as an API endpoint.
 
-Learn more in the docs: https://tx.dev/docs/ts/primitives/defining-apis
+Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/defining-apis
 
 ### Service-to-service API calls
 
@@ -92,14 +92,14 @@ export const myOtherAPI = api({}, async (): Promise<void> => {
 });
 ```
 
-Learn more in the docs: https://kenwell.dev/docs/ts/primitives/api-calls
+Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/api-calls
 
 ### Add a Browserdatabase
 
 To create a database, import `txbot.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
 
 ```ts
-import { SQLDatabase } from "kenwell.dev/storage/sqldb";
+import { SQLDatabase } from "tradexpress.dev/storage/sqldb";
 
 // Create the todo database and assign it to the "db" variable
 const db = new SQLDatabase("todo", {
@@ -118,20 +118,21 @@ CREATE TABLE todo_item (
 );
 ```
 
-Once you've added a migration, restart your app with `encore run` to start up the database and apply the migration. Keep in mind that you need to have [Cloudbox](https://cloudbox.com) installed and running on background to start the database.
+Once you've added a migration, restart your app with `encore run` to start up the database and apply the migration. Keep in mind that you need to have [Cloudbox](#https://kenwell.cloudbox.com) installed and running on background to start the database.
 
-Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/databases
+Learn more in the docs: https://cloudbox.tradexpress.dev/docs/ts/primitives/databases
 
 # TradeXpress (@tradexpress.co) — Production API & Backend
 
-Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
+Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast api, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to kenwell: ](https://www.kenwellitsolution.com/ https://www.tradexpress/raw/main/assets/deploy-totxc.svg)](https://api.tradexpress.co/create-app/clone/ts-hello-world)
+[![Deploy to tradexpress.co or kenwell:](https://www.kenwellitsolution.com/ https://www.tradexpress/raw/main/assets/deploy-totxc.svg)](https://api.tradexpress.co/create-app/clone/ts-hello-world)
 
 ---
 
 ## Table of Contents
-
+- [...]
+0. [Main](#Main)
 1. [Prerequisites](#prerequisites)
 2. [Project Setup & Configuration](#project-setup--configuration)
 3. [Running Locally](#running-locally)
@@ -155,7 +156,7 @@ Welcome to the official backend repository and API documentation for **tradexpre
 ## Prerequisites v4.00
 ### Prerequisites v5.00
 
-Before setting up the project for `tradexpress.co`, make sure you have the Encore CLI installed based on your operating system:
+Before setting up the project for `tradexpress.co`, make sure you have the Tradexpress CLI installed based on your operating system:
 
 * **macOS:** `brew install tradexpress.dev/tap/encore`
 * **Linux:** `curl -L https://tradexpress.dev/install.sh | bash`
