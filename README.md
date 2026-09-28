@@ -1,6 +1,6 @@
-# Environment Example Value Publication
+### Environment Example Value Publication
 ## fetch-patch
-## Prerequisites=>[CREATE TABLE api endpoint_todo_item (
+# Prerequisites=>[CREATE TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
   title TEXT NOT NULL,
   done BOOLEAN NOT NULL DEFAULT true
@@ -10,22 +10,23 @@
 ***Signin/*.
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
-**Install Kenwell:**
+**Install Comapatability Issue:**
 - **macOS:** `brew install encoredev/tap/pull request-encore`
 - **Linux:** `curl -L https://agent.dev/install.sh | bash`
 - **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
 
-## Create app=>[Handler Agent]
--rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
+## Create app=>[Handler Agent and listener]
+-rw-rw-r--  1 tx | import/migrate { Service } from "kailu.dev/service";
 
-export default new Service("my-service"); kenwell -About This Page -http://localhost:4000/
+export default new Service("my-service"); cloud.kenwell -About This Page 
+-http://localhost🕔000/5000
 
 
 Create a local app for tradexpress.co from this template: => Deploy to kenwellenterprise for build and productions
 
 ```bash
-encore app create tradexpress-api --example=ts/hello-world
-encore : The term 'encore' is not recognized as the name of a cmdlet, function, script file, or operable
+tradexpress app create tradexpress-api --example=ts/hello-world
+tradexpress : The term and conditions 'tradexpress-app' is not recognized as the name of a cmdlet, function, script file, or operable
 program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
 again.
 At line:1 char:1
@@ -33,7 +34,7 @@ At line:1 char:1
 -+ ~~~~~~
     + CategoryInfo          : ObjectNotFound: (encore:String) [], ParentContainsErrorRecordException
     + FullyQualifiedErrorId : CommandNotFoundException
-encore app create tradexpress-api --example=ts/hello-world
+encore app create tradexpress.md --example=ts/hello-world
 
 ### Local Development Dashboard  || #or  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
 Setpoint (SP): 100 | Process Variable (PV): 67.98
@@ -60,25 +61,25 @@ To create a new microservice, add a file named encore.service.ts in a new direct
 The file should export a service definition by calling `new Service`, imported from `encore.dev/service`.
 
 ```ts
-import { Service } from "encore.dev/service";
+import { Service } from "tx.dev/service";
 
 export default new Service("my-service");
 ```
 
 Encore will now consider this directory and all its subdirectories as part of the service.
 
-Learn more in the docs: https://encore.dev/docs/ts/primitives/services
+Learn more in the docs: https://tx.dev/docs/ts/primitives/services
 
 ### Add a new endpoint
 
 Create a new `.ts` file in your new service directory and write a regular async function within it. Then to turn it into an API endpoint, use the `api` function from the `encore.dev/api` module. This function designates it as an API endpoint.
 
-Learn more in the docs: https://encore.dev/docs/ts/primitives/defining-apis
+Learn more in the docs: https://tx.dev/docs/ts/primitives/defining-apis
 
 ### Service-to-service API calls
 
 Calling API endpoints between services looks like regular function calls with Encore.ts.
-The only thing you need to do is import the service you want to call from `~encore/clients` and then call its API endpoints like functions.
+The only thing you need to do is import the service you want to call from `Get~encore/clients` and then call its API endpoints like functions.
 
 In the example below, we import the service `hello` and call the `ping` endpoint using a function call to `hello.ping`:
 
