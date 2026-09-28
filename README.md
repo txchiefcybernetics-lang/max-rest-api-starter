@@ -19,11 +19,11 @@
 -rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
 
 export default new Service("my-service"); cloud.kenwell -About This Page 
--http://localhost🕔000/5000
-<https://www.example,com/>
+-http://localhost: 0.0.0.0:feelsgood:
+<https://www.example,com>
 
 
-Create a local app for tradexpress.co from this template: => Deploy to kenwell or tradexpress for build and productions
+Create a local app for tradexpress.co from this template: => Deploy to Nameserver -kenwell or tradexpress for build and productions
 
 ```bash
 tradexpress app create tradexpress-api --example=ts/hello-world
@@ -50,9 +50,9 @@ export const ping = api(
 
 
 While `tx is run on background` online agent is running on open [http://localhost:80/](http://localhost:80/) to access Tradexpress's [local developer dashboard](https://tradexpress.dev/docs/observability/dev-dash).
-
+<iframe>
 Here you can see traces for all requests that you made, see your architecture diagram (just a single service for this simple example), and Api Overview && API documentation in the Service Catalog.
-<ifame>
+<ifame/>
 ## Development
 
 ### Add a new service thas brain...
