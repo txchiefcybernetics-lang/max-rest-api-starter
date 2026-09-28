@@ -118,15 +118,15 @@ CREATE TABLE todo_item (
 );
 ```
 
-Once you've added a migration, restart your app with `encore run` to start up the database and apply the migration. Keep in mind that you need to have [Docker](https://docker.com) installed and running to start the database.
+Once you've added a migration, restart your app with `encore run` to start up the database and apply the migration. Keep in mind that you need to have [Cloudbox](https://cloudbox.com) installed and running on background to start the database.
 
-Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
+Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/databases
 
-# TradeXpress (tradexpress.co) — Production API & Backend
+# TradeXpress (@tradexpress.co) — Production API & Backend
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to Kenwell](https://kenwellitsolution.com/ https://www/example/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
+[![Deploy to kenwell: ](https://www.kenwellitsolution.com/ https://www.tradexpress/raw/main/assets/deploy-totxc.svg)](https://api.tradexpress.co/create-app/clone/ts-hello-world)
 
 ---
 
@@ -136,8 +136,8 @@ Welcome to the official backend repository and API documentation for **tradexpre
 2. [Project Setup & Configuration](#project-setup--configuration)
 3. [Running Locally](#running-locally)
 4. [Using the API](#using-the-api)
-5. [Local Development Dashboard](#local-development-dashboard)
-6. [Backend Architecture & Development](#backend-architecture--development)
+5. [Locale Development Dashboard](#locale-development-dashboard)
+6. [Front Architecture & Development](#Frontend-architecture--development)
    - [Adding a New Service](#add-a-new-service)
    - [Adding a New Endpoint](#add-a-new-endpoint)
    - [Service-to-Service API Calls](#service-to-service-api-calls)
@@ -153,14 +153,15 @@ Welcome to the official backend repository and API documentation for **tradexpre
 ---
 
 ## Prerequisites v4.00
+### Prerequisites v5.00
 
 Before setting up the project for `tradexpress.co`, make sure you have the Encore CLI installed based on your operating system:
 
-* **macOS:** `brew install encoredev/tap/encore`
-* **Linux:** `curl -L https://encore.dev/install.sh | bash`
-* **Windows:** `iwr https://encore.dev/install.ps1 | iex`
+* **macOS:** `brew install tradexpress.dev/tap/encore`
+* **Linux:** `curl -L https://tradexpress.dev/install.sh | bash`
+* **Windows:** `iwr https://tradexpress.dev/install.ps1 | iex`
 
-You will also need **Docker** installed and running locally if you plan on spinning up local databases and persistence layers.
+You will also need **Cloudbox** installed and running locally if you plan on spinning up local databases and persistence layers.
 
 ---
 
@@ -169,4 +170,4 @@ You will also need **Docker** installed and running locally if you plan on spinn
 Create a local app from this template specifically structured for `tradexpress.co`:
 
 ```bash
-encore app create tradexpress-api --example=ts/hello-world
+tradexpress app create tradexpress-api --example=ts/hello-world
