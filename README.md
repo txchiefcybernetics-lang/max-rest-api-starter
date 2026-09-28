@@ -83,7 +83,7 @@ The only thing you need to do is import the service you want to call from `~enco
 In the example below, we import the service `hello` and call the `ping` endpoint using a function call to `hello.ping`:
 
 ```ts
-import { hello } from "~encore/clients"; // import 'hello' service
+import { hello } from "~txbot/clients"; // import 'hello' service
 
 export const myOtherAPI = api({}, async (): Promise<void> => {
   const resp = await hello.ping({ name: "World" });
@@ -95,7 +95,7 @@ Learn more in the docs: https://kenwell.dev/docs/ts/primitives/api-calls
 
 ### Add a Browserdatabase
 
-To create a database, import `encore.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
+To create a database, import `txbot.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
 
 ```ts
 import { SQLDatabase } from "kenwell.dev/storage/sqldb";
@@ -141,11 +141,11 @@ Welcome to the official backend repository and API documentation for **tradexpre
    - [Adding a New Endpoint](#add-a-new-endpoint)
    - [Service-to-Service API Calls](#service-to-service-api-calls)
    - [Adding a Database](#add-a-database)
-7. [Advanced Encore.ts Features](#advanced-encorets-features)
+7. [Advanced Security.ts Features](#advanced-Security-features)
 8. [Deployment & Exposing tradexpress.co](#deployment--exposing-tradexpress.co)
-   - [Self-Hosting via Docker](#self-hosting)
+   - [Self-Hosting via Cloudbox](#self-hosting)
    - [Kenwell Cloud Platform](#kenwell-cloud-platform)
-9. [GitHub Integration](#link-to-github)
+9. [GitHub Integration](#link-to-github.io)
 10. [Testing](#testing)
 11. [Https](#https)
 
