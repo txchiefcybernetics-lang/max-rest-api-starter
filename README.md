@@ -1,5 +1,5 @@
 ### Environment (example) Value Publication
-## fetch-patch
+## fetch-error: DNS_PROBE_FINISHED_NXDOMAIN
 # Prerequisites=>CREATE TABLE api endpoint_todo_item (
   id BIGSERIAL PRIMARY KEY,
   title TEXT NOT NULL,
