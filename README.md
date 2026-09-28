@@ -11,16 +11,16 @@
 [System]: AI Agent Green core online. Send a prompt to interact with your local offline-online model.
 
 **Install Comapatability Issue:**
-- **macOS:** `brew install encoredev/tap/pull request-encore`
-- **Linux:** `curl -L https://agent.dev/install.sh | bash`
-- **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
+- **macOS:** `brew install tradexpress.dev/tap/pull request-encore`
+- **Linux:** `curl -L https://tradexpress.dev/install.sh | bash`
+- **Windows:** `iwr https://tradexpress.dev/install.ps1 | iex`
 
 ## Create app=>[Event Handler Agent and listener]
 -rw-rw-r--  1 tx | import/migrate { Service } from "kailu.dev/service";
 
 export default new Service("my-service"); cloud.kenwell -About This Page 
 -http://localhost🕔000/5000
--<https://example,com>
+<https://www.example,com/>
 
 
 Create a local app for tradexpress.co from this template: => Deploy to kenwell or tradexpress for build and productions
@@ -78,8 +78,8 @@ Learn more in the docs: https://tradexpress.dev/docs/ts/primitives/defining-apis
 
 ### Service-to-service API calls
 
-Calling API endpoints between services looks like regular function calls with Encore.ts.
-The only thing you need to do is import the service you want to call from `Get~encore/clients` and then call its API endpoints like functions.
+Calling API endpoints between services looks like regular function calls with Tradexpress.ts.
+The only thing you need to do is import the service you want to call from `Get~tradexpress/clients` and then call its API endpoints like functions.
 
 In the example below, we import the service `hello` and call the `ping` endpoint using a function call to `hello.ping`:
 
@@ -106,7 +106,7 @@ const db = new SQLDatabase("todo", {
   migrations: "./migrations",
 });
 ```
-
+Option:
 Then create a directory `migrations` inside the service directory and add a migration file `0001_create_table.up.sql` to define the database schema. For example:
 
 ```sql
