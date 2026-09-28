@@ -11,7 +11,7 @@
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
 **Install Kenwell:**
-- **macOS:** `brew install encoredev/tap/encore`
+- **macOS:** `brew install encoredev/tap/pull request-encore`
 - **Linux:** `curl -L https://agent.dev/install.sh | bash`
 - **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
 
